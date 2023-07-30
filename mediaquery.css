@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+    .leaf_img_sec {
+        width: 33vw;
+    }
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
+    .leaf_img_sec {
+        width: 40vw;
+    }
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px) {
+
+
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    .lotustowericon {
+        padding-left: 9vw;
+    }
+
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+    .landtree1 {
+        display: none;
+    }
+
+    .landfish2 {
+           display: none;
+    }
+
+    .land_text {
+        text-align: left;
+        padding-top: 45px;
+        font-weight: 800;
+        padding-left: 20vw;
+    }
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+    .lotustowericon {
+        position: absolute;
+        padding-top: 0%; 
+        padding-left: 0%;
+    }
+
+
+    .land_text {
+        text-align: left;
+        padding-top: 34px;
+        font-weight: 800;
+        padding-left: 10vw;
+    }
+
+    .landgreenbox1 {
+        display: none;
+    }
+
+    .landfish1{
+        display: none;
+    }
+
+    .plant_info_sec {
+        height: auto;
+    }
+
+    .fish_info_sec {
+       height: auto;
+       padding-bottom: 40px;
+    }
+    .landbluebox2{
+       display: none;
+    } 
+    .landbluebox1{
+        display: none;
+    }
+    .lotustowericon{
+        display: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .land_text {
+        padding-left: 14vw;
+    }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+
+    .leaf_img_sec {
+        width: 50vw;
+    }
+
+    .land_text {
+        padding-left: 1vw;
+        padding-top: 10vh;
+    }
+
+    .scroll_down {
+        left: 2vw;
+    }
+
+    .plants_heading {
+        width: 40vw;
+        top: 1px;
+        right: 0px;
+    }
+
+    .plant_info_sec {
+        padding-top: 22px;
+    }
+
+    .filter_row h1 {
+        font-size: 50px;
+        font-weight: medium;
+    }
+
+    .no_mobile_display{
+        display: none;
+    }
+
+    
+
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.land_para{
+    width: 70vw;
+}
+
+.width_mob_img{
+    width: 90vw
+}
+
+.plants_details_heading_mob {
+    width: 300px;
+
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 375px) {
+
+
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+
+
+}

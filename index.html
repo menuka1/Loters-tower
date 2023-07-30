@@ -1,0 +1,364 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <!-- Bootstrap CSS --> 
+
+      <!-- menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="menu/style.css">
+    <!-- menu -->
+
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+     <link href="Style.css" rel="stylesheet">
+ 
+    <!--media query css-->
+    <link href="mediaquery.css" rel="stylesheet" type="text/css" media="screen">
+    <!--media query css-->
+
+
+     <!-- animation css -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- animation css -->
+     
+    <!-- loader  -->
+    <div class="loaderContainer" id="loaderContainer">
+      <div class="lds-ripple"><div></div><div></div></div>
+    </div>  
+     <style>
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 0px #54927D;
+        border-radius: 0px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        background-color: #54927D;
+        -webkit-box-shadow: inset 0 0 1px #54927D;
+      }
+      </style>
+   
+     
+</head>
+<body> 
+
+    <!-- partial:index.partial.html -->
+    <div id="wrapper">
+    
+      <button class="navbar-toggle" id="toggle" type="button">
+    <svg viewBox="0 0 100 100" width="60">
+      <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+      <path class="line middle"d="m 30,50 h 40" />
+      <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+    </svg>
+      <!-- <span style="position: relative; top: -27px; font-family: Stag; left: -13px;"><b>MENU</b></span> -->
+    </button>
+  
+    <div class="navbar">
+       <ul>
+        <li><a data-text="1" href="index.html">Home</a></li>
+        <li><a data-text="2" href="plant_list.html">Plants </a></li>
+        <li><a data-text="3" href="fish_list.html">Fish</a></li>
+        <li><a data-text="4" href="filter_page.html">Filters </a></li>
+        
+        </ul>
+    </div>
+      <div id="bg-circle"></div>
+    </div>
+    <!-- partial -->
+
+  <div class="land_section" style="height: 100vh; z-index: 10;">
+    <img src="assets/landbluebox1.png" class="landbluebox1"  data-aos="fade-up" data-aos-duration="1000">
+    
+    <img src="assets/landgreenbox1.png" class="landgreenbox1" data-aos="fade-right" data-aos-duration="2500">
+    <img src="assets/treeland1.png" class="landtree1"  >
+    <img src="assets/landbluebox1.png" class="landbluebox2"  data-aos="fade-down" data-aos-duration="1000">
+
+    <div class="container land_text_con">
+    <img src="assets/lotustowericon.png" class="lotustowericon">
+    
+    <!-- check this  -->
+    <div class="blinking-dot"></div> 
+    <!-- check this  -->
+
+    <img src="assets/landfish1.png" class="landfish1"  data-aos="fade-left" data-aos-duration="2000">
+    <img src="assets/landfish2.png" class="landfish2">
+      
+      <div class="land_text">
+        <h1  data-aos="fade-up-left" data-aos-duration="2000"><b>Lotus tower</b> fish and plant <br>
+           reservation project</h1>
+           
+      <br> <p  data-aos="fade-up" data-aos-duration="2500" class="land_para" >Discover Lotus Tower, Colombo's iconic architectural masterpiece. With its stunning lotus-inspired design and multifunctional facilities, it offers breathtaking views, telecommunications services, and unforgettable experiences. Welcome to a world of elegance and innovation at Lotus Tower.</p>
+      <p>Dive into fish and plants sections.</p>   
+    </div>
+    
+      <!-- <div class="land_buttons"  data-aos="fade-up" data-aos-duration="3000">
+           
+      <a href="#" class="plant_button1">
+        <span class="plant_button1-text">Explore</span>
+      </a> 
+
+      <a href="#" class="fish_button1">
+        <span class="fish_button1-text">Explore</span>
+      </a>
+ 
+    </div>  -->
+    
+
+     
+      <img src="assets/ayubowan.png" class="scroll_down ">
+      
+
+ 
+    </div>
+   
+    
+    
+  </div>
+
+
+
+
+  <div class="plant_info_sec">
+    
+    <div class=" container">
+       <div class="row">
+              <div class="col col-lg-6">
+                
+                
+               
+          <div class="text_plant_sec">
+          <div id="leaves">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i> 
+                </div> 
+          <img src="assets/plant_word.png" class="plants_heading" data-aos="fade-up" data-aos-duration="1000">
+          <p>Immerse yourself in the rich tapestry of plant life that thrives within these protected areas. From majestic trees that reach for the sky to delicate wildflowers that carpet the forest floor, each plant has a story to tell. Discover their unique features, fascinating adaptations, and the vital roles they play in sustaining the delicate balance of 
+       <span style="font-size: 40px;">our ecosystems</span>.</p>
+       <br>
+   <br>
+       <a href="/plant_list.html" class="plant_button1" data-aos="fade-left" data-aos-duration="2000">
+        <span class="plant_button1-text">Explore</span>
+        
+      </a> 
+      <!-- <img src="assets/leaf2.png" class="leaf1">     -->
+    </div>
+
+
+
+      </div>
+      <div class="col col-lg-6 ">
+        
+        <img src="assets/leafback_sec.png" class="leaf_img_sec width_mob_img" data-aos="fade-in" data-aos-duration="3000"> 
+        
+      </div>
+      
+    </div>
+  </div>
+  <!--Waves Container-->
+<div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+  </g>
+  </svg>
+  </div>
+  <!--Waves end-->
+
+  </div>
+
+  <div class="container">
+    <div class="row filter_row" style="position: relative;">
+      <div class="fish">
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+      </div>
+      <div class="fish">
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+        <div class="koiCoil"></div>
+      </div>
+      <h1>Introducing the Bob Filter</h1>
+      
+
+   
+  
+        <p  data-aos="fade-in" data-aos-duration="2000">A Natural Plant Filter for pH Control in Aquatic Environments</p>
+        <br>
+        <br>
+        <br>
+        <p>In the quest for maintaining optimal pH levels and promoting a healthy aquatic environment, the Bob Filter emerges as a specialized natural plant filter. This innovative filtration system incorporates the principles of aquascaping and the power of carefully selected aquatic plants to effectively regulate and stabilize pH values in aquariums and other aquatic setups.
+        
+          The Bob Filter takes its name from the acronym "Bob," representing the three key components of this filtration system: Biological, Oxygenation, and Balance. Let's delve into each component to understand how the Bob Filter functions and contributes to pH control.</p>
+          <br>
+          <div id="canvas_container_div" style="opacity: 0.3;">
+            <canvas id="canvas" width="1000" height="1000"></canvas> <!--(large size for higher resolution)-->
+          </div>
+          <script src='anime/plant.js'></script>
+          <br>
+          <a href="filter_page.html" class="fish_button1"  data-aos="fade-up" data-aos-duration="2000" style="    position: relative;
+          margin: 50px auto 10px auto;">
+            <span class="fish_button1-text">Read More</span>
+          </a>
+    </div>
+
+     
+     
+    </div>
+
+
+  <div class="fish_info_sec">
+    <div class=" container">
+       <div class="row">
+              <div class="col col-lg-6  ">
+               
+                <img src="assets/fishback_sec.png" class="leaf_img_sec width_mob_img" data-aos="fade-in" data-aos-duration="3000">
+
+      </div>
+      <div class="col col-lg-6">
+
+        <div class="text_plant_sec" style="position: relative;">
+        <img src="assets/fish_word.png" class="plants_heading" data-aos="fade-up" data-aos-duration="1000">
+
+        
+        <p>Immerse yourself in the rich tapestry of plant life that thrives within these protected areas. From majestic trees that reach for the sky to delicate wildflowers that carpet the forest floor, each plant has a story to tell. Discover their unique features, fascinating adaptations, and the vital roles they play in sustaining the delicate balance of 
+     <span style="font-size: 40px;">our ecosystems</span>.</p>
+     <br>
+     <br>
+     <a href="fish_list.html" class="fish_button1"  data-aos="fade-right" data-aos-duration="2000">
+      <span class="fish_button1-text">Explore</span>
+    </a>
+    
+    <div class="fish">
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+      <div class="koiCoil"></div>
+    </div>
+
+      </div>
+      </div>
+      
+    </div>
+    
+
+
+
+
+  </div>
+
+  </div>
+
+  
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <h1>Footer Heading</h1>
+      <p class="description">Footer Description</p>
+      <p class="bottom-right">Additional Content</p>
+      <p class="copyright">&copy; 2023 Your Website</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+<!-- menu -->
+<script src='menu/gsap.min.js'></script>
+<script  src="menu/script.js"></script>
+<!-- menu -->
+
+  <!-- loading screen script -->
+  <script>
+    $(window).on("load",function(){
+      console.log("loaded");
+      // $(".loader-wrapper").fadeOut("slow");
+      document.getElementById("loaderContainer").style.display = "none";
+      jQuery("#loaderContainer").fadeOut("slow");
+  });
+  </script>
+<!-- loading screen script -->  
+
+
+
+
+</body>
+</html>
