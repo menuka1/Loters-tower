@@ -1,18 +1,6 @@
 <style>
-    * {
+  * {
   font-family: Nunito, sans-serif;
-}
-
-.text-blk {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  line-height: 25px;
 }
 
 .responsive-container-block {
@@ -32,116 +20,584 @@
   justify-content: flex-start;
 }
 
+a {
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  line-height: 25px;
+}
+
 .responsive-container-block.bigContainer {
   padding-top: 10px;
   padding-right: 30px;
   padding-bottom: 10px;
   padding-left: 30px;
-  background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: cover;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-}
-
-.responsive-container-block.Container {
-  max-width: 800px;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  margin-top: 150px;
-  margin-right: auto;
-  margin-bottom: 150px;
-  margin-left: auto;
-  background-color: white;
+  justify-content: center;
+  padding: 10px 50px 10px 50px;
+}
+
+.mainImg {
+  color: black;
+  width: 50%;
+  height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.text-blk.heading {
-  font-size: 36px;
-  line-height: 45px;
-  font-weight: 800;
+.text-blk.headingText {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  color: rgb(176, 98, 255);
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   margin-left: 0px;
 }
 
-.text-blk.subHeading {
-  text-align: center;
+.allText {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 40%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.text-blk.subHeadingText {
+  color: rgb(102, 102, 102);
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.text-blk.description {
   font-size: 18px;
   line-height: 26px;
+  color: rgb(102, 102, 102);
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  font-weight: 400;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.explore {
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(102, 102, 102);
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgb(102, 102, 102);
+  border-right-color: rgb(102, 102, 102);
+  border-bottom-color: rgb(102, 102, 102);
+  border-left-color: rgb(102, 102, 102);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  cursor: pointer;
+  background-color: white;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+}
+
+.explore:hover {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(176, 98, 255);
+  color: white;
+  border-top-width: initial;
+  border-right-width: initial;
+  border-bottom-width: initial;
+  border-left-width: initial;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+
+.responsive-container-block.Container {
+  margin-top: 80px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 1320px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.responsive-container-block.Container.bottomContainer {
+  flex-direction: row-reverse;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  position: static;
+}
+
+.allText.aboveText {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+}
+
+.allText.bottomText {
+  margin-top: 0px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.purpleBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 430px;
+  background-color: rgb(176, 98, 255);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+  bottom: -35px;
+  left: -8%;
+}
+
+.purpleText {
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
   margin-left: 0px;
 }
 
-.socialIcon {
-  width: 33px;
-  height: 33px;
+.ultimateImg {
+  width: 50%;
+  position: relative;
 }
 
-.social-icons-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.social-icon {
-  margin: 0 50px 0 50px;
-}
-
-.social-icon:hover {
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .text-blk.heading {
-    font-size: 55px;
-    line-height: 65px;
+@media (max-width: 1024px) {
+  .responsive-container-block.Container {
+    max-width: 850px;
   }
 
-  .text-blk.subHeading {
-    font-size: 18px;
-    line-height: 24px;
+  .mainImg {
+    width: 55%;
+    height: auto;
   }
 
-  .socialIcon {
-    width: 20px;
-    height: 20px;
-  }
-
-  .text-blk.subHeading {
-    line-height: 27px;
-  }
-
-  .text-blk.heading {
-    font-size: 32px;
-    line-height: 40px;
+  .allText {
+    width: 40%;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .responsive-container-block.Container.bottomContainer {
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  }
+
+  .responsive-container-block.Container {
+    max-width: 830px;
+  }
+
+  .allText.aboveText {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+  }
+
+  .allText.bottomText {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .text-blk.headingText {
+    text-align: center;
+  }
+
+  .allText.aboveText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     margin-left: 0px;
   }
 
-  .social-icon {
-    margin: 0 25px 0 25px;
+  .text-blk.subHeadingText {
+    text-align: left;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .text-blk.description {
+    text-align: left;
+    line-height: 24px;
+  }
+
+  .explore {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+
+  .responsive-container-block.Container {
+    justify-content: space-evenly;
+  }
+
+  .purpleBox {
+    bottom: 10%;
+  }
+
+  .responsive-container-block.Container.bottomContainer {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    max-width: 930px;
+  }
+
+  .allText.bottomText {
+    width: 40%;
+  }
+
+  .purpleBox {
+    bottom: auto;
+    left: -10%;
+    top: 70%;
+  }
+
+  .mainImg {
+    width: 100%;
+  }
+
+  .text-blk.headingText {
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .allText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .responsive-container-block.Container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .text-blk.headingText {
+    text-align: center;
+  }
+
+  .text-blk.subHeadingText {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .text-blk.description {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .allText {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .allText.aboveText {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .responsive-container-block.Container {
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  }
+
+  .responsive-container-block.Container.bottomContainer {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  }
+
+  .allText.bottomText {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .mainImg {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -70px;
+    margin-left: 0px;
+  }
+
+  .responsive-container-block.Container.bottomContainer {
+    flex-direction: column;
+  }
+
+  .ultimateImg {
+    width: 100%;
+  }
+
+  .purpleBox {
+    position: static;
+  }
+
+  .allText.bottomText {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .text-blk.headingText {
+    text-align: left;
+  }
+
+  .text-blk.subHeadingText {
+    text-align: left;
+  }
+
+  .text-blk.description {
+    text-align: left;
+  }
+
+  .ultimateImg {
+    position: static;
+  }
+
+  .mainImg {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .ultimateImg {
+    position: relative;
+  }
+
+  .purpleBox {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    position: absolute;
+    left: 0px;
+    top: 80%;
+  }
+
+  .allText.bottomText {
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
   }
 }
 
 @media (max-width: 500px) {
+  .responsive-container-block.Container {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .mainImg {
+    width: 100%;
+  }
+
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+  }
+
+  .text-blk.subHeadingText {
+    font-size: 24px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 28px;
+  }
+
+  .text-blk.description {
+    font-size: 16px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 22px;
+  }
+
+  .allText {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .allText.bottomText {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0 0 0 0;
+    margin: 30px 0 0 0;
+  }
+
+  .ultimateImg {
+    position: static;
+  }
+
+  .purpleBox {
+    position: static;
+  }
+
+  .stars {
+    width: 55%;
+  }
+
+  .allText.bottomText {
+    margin-top: 75px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
   .responsive-container-block.bigContainer {
     padding-top: 10px;
     padding-right: 20px;
@@ -149,42 +605,14 @@
     padding-left: 20px;
   }
 
-  .text-blk.heading {
-    font-size: 45px;
-    line-height: 55px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-  }
-
-  .text-blk.subHeading {
-    font-size: 14px;
-    line-height: 22px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 30px;
-    margin-left: 0px;
-  }
-
-  .social-icons-container {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .text-blk.subHeading {
+  .purpleText {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 22px;
   }
 
-  .text-blk.heading {
-    font-size: 26px;
-    line-height: 30px;
-  }
-
-  .social-icon {
-    margin: 0 20px 0 20px;
+  .explore {
+    padding: 6px 35px 6px 35px;
+    font-size: 15px;
   }
 }
 
@@ -401,38 +829,50 @@ body {
 }
 </style>
 
-<div class="responsive-container-block bigContainer">
-  <div class="responsive-container-block Container">
-    <p class="text-blk heading">
-      About Lotuscape:
-    </p>
-    <p class="text-blk subHeading">
-      Welcome to Lotuscape, where nature's serenity meets artistic ingenuity. Our passion lies
-in reimagining outdoor spaces as vibrant aquatic landscapes that captivate the senses
-and rejuvenate the soul. Founded with a vision to harmonize the beauty of aquatic
-ecosystems and the art of landscaping, Lotuscape is at the forefront of the aquascape
-revolution. As pioneers of this innovative concept, we blend the elegance of water with
-the artistry of design, creating enchanting environments that redefine the boundaries of
-traditional landscaping. With every project, we strive to craft immersive experiences that
-celebrate the delicate balance between aquatic life, lush flora, and sculpted hardscapes.
-At Lotuscape, our commitment to excellence, sustainability, and the boundless wonders
-of nature drives us to transform ordinary spaces into extraordinary aquascapes. Join us
-on this journey as we create living works of art that inspire, heal, and connect us to the
-tranquil beauty of the aquatic world.
 
-    </p>
-    <div class="social-icons-container">
-      <a class="social-icon">
-        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb33.png">
-      </a>
-      <a class="social-icon">
-        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb34.png">
-      </a>
-      <a class="social-icon">
-        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb35.png">
-      </a>
-      <a class="social-icon">
-        <img class="socialIcon image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb36.png">
+
+
+
+
+
+<div class="responsive-container-block bigContainer">
+  <div class="responsive-container-block Container bottomContainer">
+    <div class="ultimateImg">
+      <img class="mainImg" src="assets/plants list/WhatsApp Image 2023-08-11 at 11.56.23.jpg">
+      
+      <!-- <div class="purpleBox">
+        <!-- <p class="purpleText">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget purus lectus viverra in semper nec pretium mus.
+        </p> -->
+        <!-- <img class="stars" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/mp5.svg"> 
+      </div> -->
+    </div>
+    <div class="allText bottomText">
+      <p class="text-blk headingText">
+        Ntroducing the Visionary CEO Behind the Sri lankan First-Ever Aquascape Concept:
+      </p><br>
+      <!-- <p class="text-blk subHeadingText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p> -->
+      <p class="text-blk description">
+        Meet founder Buddika Kadurugamuwa, CEO of Blackstone Engineering , an icon in
+landscape innovation, poised to reshape outdoor aesthetics. With a career defined by
+boundless creativity, Buddika now pioneers a groundbreaking venture – the world's
+inaugural aquascape concept.</p>
+<br><p class="text-blk description">
+For Mr. Kadurugamuwa, the fusion of aquatic and terrestrial realms isn't merely design;
+it's a philosophy. The aquascape concept intertwines water and land, crafting immersive
+environments where aquatic life and lush plant arrangements coexist harmoniously.
+</p><br><p class="text-blk description">
+This innovation beckons us to rediscover nature's wonders – waterfalls flowing into
+tranquil pools, underwater ecosystems dancing with carefully sculpted landscapes.
+Kadurugamuwa's visionary and dedication to redefining landscaping inspire us all.</p>
+<br><p class="text-blk description">
+Join us in exploring the genesis and principles of Mr. Kadurugamuwa's aquascape
+concept, an odyssey into a future where nature's essence thrives anew.
+</p>
+      <a class="explore">
+        View Services
       </a>
     </div>
   </div>
