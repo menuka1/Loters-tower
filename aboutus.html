@@ -1,3 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotuscape</title>
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <!-- Bootstrap CSS --> 
+
+           <!-- menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="menu/style.css">
+    <!-- menu -->
+
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+     <link href="Style.css" rel="stylesheet">
+     <!-- <link href="aboutus.css" rel="stylesheet"> -->
+
+
+     <!-- animation css -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- animation css -->
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 <style>
   * {
   font-family: Nunito, sans-serif;
@@ -64,7 +94,7 @@ a {
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
-  color: rgb(176, 98, 255);
+  color: rgb(58, 55, 61);
   padding-top: 0px;
   padding-right: 10px;
   padding-bottom: 0px;
@@ -160,7 +190,7 @@ a {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgb(176, 98, 255);
+  background-color: rgb(59, 56, 63);
   color: white;
   border-top-width: initial;
   border-right-width: initial;
@@ -231,7 +261,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   max-width: 430px;
-  background-color: rgb(176, 98, 255);
+  background-color: rgb(51, 53, 52);
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -626,8 +656,12 @@ a {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
+body{
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .wk-desk-1 {
@@ -827,13 +861,85 @@ body {
     width: 100%;
   }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px #54927D;
+    border-radius: 0px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #54927D;
+    -webkit-box-shadow: inset 0 0 1px #54927D;
+  }
+
 </style>
+</head>
 
 
 
 
 
+<body>
+      <!-- partial:index.partial.html -->
+      <div id="wrapper">
+    
+        <button class="navbar-toggle" id="toggle" type="button" href="index.html">
+      <svg viewBox="0 0 100 100" width="60" href="index.html">
+        <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+        <path class="line middle"d="m 30,50 h 40" />
+        <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+      </svg>
+        <!-- <span style="position: relative; top: -27px; font-family: Stag; left: -13px;"><b>MENU</b></span> -->
+      </button>
+    
+      <div class="navbar">
+        <ul>
+          <li><a data-text="1" href="index.html">Home</a></li>
+          <li><a data-text="2" href="plant_list.html">Plants </a></li>
+          <li><a data-text="3" href="fish_list.html">Fish</a></li>
+          <li><a data-text="4" href="filter_page.html">Filters </a></li>
+          <li><a data-text="5" href="aboutus">About Us </a></li>
+          
+          </ul>
+      </div>
+        <div id="bg-circle"></div>
+      </div>
 
+      <div class="plant_list_sec">
+    
+
+        <div class="container">
+          <!-- <div id="leaves">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i> 
+          </div>  -->
+          <div class="row"></div>
+          <div class="text_plant_list_sec">
+            <!-- <img src="assets/plant_word.png" class="plants_heading plants_details_heading_mob"> -->
+            <!-- <p style="">Sri Lankan aquatic plants, where the serene beauty of nature merges with the majestic presence of the Lotus Tower. As you embark on this virtual journey, immerse yourself in the rich biodiversity that thrives within the lush landscapes of Sri Lanka. Our curated collection showcases an array of captivating aquatic plants, each one a testament to the country's vibrant flora and its deep-rooted cultural significance. From floating lilies to gracefully swaying reeds, discover the remarkable aquatic wonders that adorn Sri Lanka's waterways. Get ready to be captivated by the allure of these botanical treasures, set against the backdrop of the iconic Lotus Tower, symbolizing harmony, purity, and enlightenment. Let us guide you through this oasis of aquatic splendor, inviting you to explore the hidden treasures that lie beneath the water's surface.</p> -->
+         
+          
+      </div>
+  <div id="wrapper">
+    
 
 <div class="responsive-container-block bigContainer">
   <div class="responsive-container-block Container bottomContainer">
@@ -847,8 +953,12 @@ body {
         <!-- <img class="stars" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/mp5.svg"> 
       </div> -->
     </div>
+  
+    
     <div class="allText bottomText">
       <p class="text-blk headingText">
+        
+        <b>
         Ntroducing the Visionary CEO Behind the Sri lankan First-Ever Aquascape Concept:
       </p><br>
       <!-- <p class="text-blk subHeadingText">
@@ -871,9 +981,29 @@ Kadurugamuwa's visionary and dedication to redefining landscaping inspire us all
 Join us in exploring the genesis and principles of Mr. Kadurugamuwa's aquascape
 concept, an odyssey into a future where nature's essence thrives anew.
 </p>
-      <a class="explore">
+<h1>About Lotuscape </h1>
+<div class="text_plant_list_sec">
+  <!-- <img src="assets/plant_word.png" class="plants_heading plants_details_heading_mob"> -->
+  <p >Welcome to Lotuscape, where nature's serenity meets artistic ingenuity. Our passion lies
+    in reimagining outdoor spaces as vibrant aquatic landscapes that captivate the senses
+    and rejuvenate the soul. Founded with a vision to harmonize the beauty of aquatic
+    ecosystems and the art of landscaping, Lotuscape is at the forefront of the aquascape
+    revolution. As pioneers of this innovative concept, we blend the elegance of water with
+    the artistry of design, creating enchanting environments that redefine the boundaries of
+    traditional landscaping. With every project, we strive to craft immersive experiences that
+    celebrate the delicate balance between aquatic life, lush flora, and sculpted hardscapes.
+    At Lotuscape, our commitment to excellence, sustainability, and the boundless wonders
+    of nature drives us to transform ordinary spaces into extraordinary aquascapes. Join us
+    on this journey as we create living works of art that inspire, heal, and connect us to the
+    tranquil beauty of the aquatic world.</p>
+
+
+</div>
+      <!-- <a class="explore">
         View Services
-      </a>
+      </a> -->
     </div>
   </div>
 </div>
+</div>
+</body>
